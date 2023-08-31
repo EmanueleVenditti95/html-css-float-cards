@@ -42,7 +42,8 @@ img{
     min-width: 300px;
     width: calc((100% - 40px) / 3);
 	margin-right: 20px;
-    margin-bottom: 50px;       
+    margin-bottom: 50px; 
+    box-shadow: 0px 0px 20px 0px rgba(0,0,0,0.65);     
 }
 
 .card-text{
@@ -50,7 +51,7 @@ img{
     line-height: 25px;
     font-size: 15px;
     padding-top: 7px; 
-    margin-left: 100px; 
+    margin-left: 100px;    
 }
 
 .card:nth-child(3n){
@@ -70,7 +71,5 @@ footer{
     background-color:#222222 ;
     color: #CCCCCC;
     padding: 50px 0px;
-    
-    
-
 }
+
