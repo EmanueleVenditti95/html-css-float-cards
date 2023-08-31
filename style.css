@@ -14,9 +14,10 @@
     clear:both;
 }
 
-img{
+/* img{
     max-width: 100%;
-}
+    float: left;
+} */
 
 .container{
     max-width: 800px;
@@ -25,4 +26,14 @@ img{
 
 .cards{
     float: left;
+    font-size: 15px;
+    background-color: #0F0E17;
+    color: white;
+    width: calc((100% - 40px) / 3);
+	margin-right: 20px;
+    margin-bottom: 50px;
+}
+
+.cards:nth-child(3n){
+    margin-right: 0;
 }
